@@ -18,7 +18,8 @@ namespace l3
 
             //получение символа нажатой клавиши (если возможно)
             char ch = key.KeyChar;
-
+            if (ch == '-') Console.WriteLine("{0}", a - b);
+            Console.ReadKey();
         }
     }
 }
